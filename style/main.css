@@ -1,0 +1,191 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.b-container{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+.l-c{
+    height: 100vh;
+    background: url('../pp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-title{
+    font-size: 3em;
+    line-height: 56px;
+    max-width: 300px;
+    color: #333;
+    border-bottom: 5px solid #4627f5;
+    padding:60px 0 30px 0;
+}
+
+.f-img{
+    height: 100vh;
+    width:40vw;
+    background: beige;
+    position: absolute;
+    top: 0;
+    z-index:-1;
+}
+
+.r-c{
+    padding: 80px;
+}
+.r-c h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.r-c ul{
+    list-style: none;
+    right: 50px;
+    position:absolute;
+    top:50vh;
+    transform:translateY(-50%);
+}
+
+.r-c ul li{
+    padding: 10px 0 10px 80px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+    overflow: hidden;
+}
+
+.mi{
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    transition: all ease-in 0.2s;
+}
+
+
+a:hover{
+    color: #4627f5;
+}
+
+.al {
+    color:#4627f5;   
+}
+
+
+/*About page*/
+
+.header{
+    background: #fff;
+    height: 20vh;
+    width: 100vw;
+    padding: 10vh 0 0 10vw;
+    box-sizing: border-box;
+}
+
+.header a{
+    text-decoration: none;
+    color:#555;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    transition: all ease-in 0.2s;
+}
+
+.header a:hover{
+    color:#000;
+}
+
+.header h1{
+    font-size: 48px;
+    line-height: 10px;
+}
+.b-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.al-c{
+    padding: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.ar-c{
+    padding:100px;
+    box-sizing: border-box;
+}
+
+h3{
+    color:#4627f5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+/* Contact Page */
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.ar-c i{
+    font-size: 24px;
+    padding-left:10px;
+}
+
+.cp{
+    display: inline;
+    padding-left: 10px;
+}
+
+
+.menu-h{
+    float:right;
+    position: absolute;
+    top:100px;
+    right: 100px;
+}
+
+
+.menu-h a{
+    padding:2px;
+    margin-right: 40px;
+    color: #333;
+    font-size: 16px;
+    border-bottom: 1.4px solid #fff;
+    transition: all ease-in 200ms;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+
+.menu-h a:hover{
+    border-bottom: 1.4px solid #4627f5;
+}
+
+.menu-h .ac-l{
+    border-bottom: 1.4px solid #4627f5;
+    color: #4627f5;
+}
+
+.ach-wrap{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #4627f5;
+}
+
+.ach-wrap p{
+    color: #444;
+}
